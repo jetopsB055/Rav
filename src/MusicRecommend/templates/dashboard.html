@@ -1,0 +1,26 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  
+<form method="POST" action=""> 
+  <div class="jumbotron text-center" style="background:transparent !important"/>
+    <div class="form-group">
+      <input type="text" name="genre" placeholder="Search with genre" class="form-control" value={{request.form.genre}}>
+    </div>
+      <p></p>
+      <p><input type="submit" class="btn btn-primary btn-lg" value="Search"></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <h2 style="color:white;">Or</h2>
+      <p></p>
+      <p></p>
+      <p></p>
+      <a href="/recommend" class="btn btn-success btn-lg">Get Recommendations</a>
+     
+    
+  </div>
+</form>
+
+
+{% endblock %}

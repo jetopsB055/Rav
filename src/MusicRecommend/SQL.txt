@@ -1,0 +1,183 @@
+create database music;
+use music;
+
+
+create table musicsrc(
+id int not null auto_increment,
+title varchar(200) NOT NULL,
+genre varchar(200) NOT NULL,
+primary key(id)
+);
+
+
+insert into music_src(title,genre) values('Nuvvu nuvvu from Khadgam','romantic');
+insert into music_src(title,genre) values('Telusuna from Sontham','romantic');
+insert into music_src(title,genre) values('Aha allari allari from Khadgam','romantic');
+insert into music_src(title,genre) values('Nee kallathoti from Tulasi','romantic');
+insert into music_src(title,genre) values('Paruvam vaanaga from Roja','romantic');
+insert into music_src(title,genre) values('Mounamelanoyi from Sagarasangamam','romantic');
+insert into music_src(title,genre) values('Manasupalike from Swathimuthyam','romantic');
+insert into music_src(title,genre) values('Enno ratrulosthayi from Dharmakshetram','romantic');
+insert into music_src(title,genre) values('Asalem gurthukuradu from Anthahpuram','romantic');
+insert into music_src(title,genre) values('Thakita thakajham from Raarandoi veduka chuddam','romantic');
+insert into music_src(title,genre) values('Priyathama from Ullasanga Uthsahanga','romantic');
+insert into music_src(title,genre) values('Kai love from Sakhi','romantic');
+insert into music_src(title,genre) values('Manohara from Cheli','romantic');
+insert into music_src(title,genre) values('Kalaya nijama from Coolie no.1','romantic');
+insert into music_src(title,genre) values('Om namaha from Geethanjali','romantic');
+insert into music_src(title,genre) values('Hello hello laila from Dhada','romantic');
+insert into music_src(title,genre) values('Endukamma prema from Gaayam -2','romantic');
+insert into music_src(title,genre) values('Andhagada from Gharshana','romantic');
+insert into music_src(title,genre) values('Arey rey from Happy days','romantic');
+insert into music_src(title,genre) values('Akasam yenatidho from nireekshana','romantic');
+insert into music_src(title,genre) values('Surya kireetame from Preminchukundham ra','romantic');
+insert into music_src(title,genre) values('Manasa ekkadunnav from Chudalani undhi','romantic');
+insert into music_src(title,genre) values('Zara zara from Rakhee','romantic');
+insert into music_src(title,genre) values('Nalona pongenu from Surya s/o Krishnan','romantic');
+insert into music_src(title,genre) values('Chandamama from Businessman','romantic');
+insert into music_src(title,genre) values('Mellaga karagani from Varsham','romantic');
+insert into music_src(title,genre) values('Koncham karanga from Chakram','romantic');
+insert into music_src(title,genre) values('Once upon a time lo – Ninnu Kori','sad');
+insert into music_src(title,genre) values('The Breakup Song – Arjun Reddy','sad');
+insert into music_src(title,genre) values('Orike Ala – Majnu','sad');
+insert into music_src(title,genre) values('Nee Selavadigi – Janatha Garage','sad');
+insert into music_src(title,genre) values('Yellipokey Shyamala – A Aa','sad');
+insert into music_src(title,genre) values('Em Cheppanu – Nenu Sailaja','sad');
+insert into music_src(title,genre) values('Selavanuko – Heart Attack','sad');
+insert into music_src(title,genre) values('Dooram Dooram – 100% Love','sad');
+insert into music_src(title,genre) values('Manasa Manninchamma – Aduvari Matalaku Ardhale Veru le','sad');
+insert into music_src(title,genre) values('Pranam Poye Badha – Mr. Nookayya','sad');
+insert into music_src(title,genre) values('My love is gone – Aarya 2','sad');
+insert into music_src(title,genre) values('Povodhe Prema – Oye','sad');
+insert into music_src(title,genre) values('Yeduta Nilichindi Chudu – Vaana','sad');
+insert into music_src(title,genre) values('O Manasa O Manasa – Bhadra','sad');
+insert into music_src(title,genre) values('Talachi Talachi – 7/G Brindavan Colony','sad');
+insert into music_src(title,genre) values('Veltunna Veltunna – Boss','sad');
+insert into music_src(title,genre) values('Kannula Bassalu – 7/G Brindavan Colony','sad');
+insert into music_src(title,genre) values('Nuvvante Pranamani – Naa Autograph','sad');
+insert into music_src(title,genre) values('Nammaka Tappani – Bommarillu','sad');
+insert into music_src(title,genre) values('Tholiprema Title Song – Tholiprema 2018','sad');
+insert into music_src(title,genre) values('Selavanuko – Heart Attack','sad');
+insert into music_src(title,genre) values('Pranam Poye Badhe – Mr. Nookayya','sad');
+insert into music_src(title,genre) values('Povoddhe Prema – Oye','sad');
+insert into music_src(title,genre) values('Baby U Gonna Miss Me – Kumari 21 F','sad');
+
+
+
+CREATE TABLE users(id INT(11) AUTO_INCREMENT PRIMARY KEY, name VARCHAR(100), email VARCHAR(100), username VARCHAR(100), password VARCHAR(100), gender VARCHAR(20), age INT(11), occupation VARCHAR(100));
+
+
+insert into users values('1','ravi','ravi@gmail.com','aravi','abc','M','25','1');
+insert into users values('2','teja','teja@gmail.com','bteja','abc','M','26','2');
+insert into users values('3','ravi','ravi@gmail.com','cravi','xyz','M','28','3');
+insert into users values('4','teja','teja@gmail.com','dteja','xyz','M','28','4');
+insert into users values('5','ravi','teja@gmail.com','eravi','xyz','M','28','5');
+insert into users values('6','teja','ravi@gmail.com','fteja','xyz','M','28','6');
+insert into users values('7','ravi','teja@gmail.com','gravi','zxc','M','28','7');
+insert into users values('8','teja','teja@gmail.com','hteja','zxc','M','34','1');
+insert into users values('9','teja','teja@gmail.com','iteja','zxc','M','34','2');
+insert into users values('10','ravi','ravi@gmail.com','jravi','zxc','M','34','3');
+insert into users values('11','ravi','bharath@gmail.com','kbharath','zxc','M','34','5');
+insert into users values('12','ravi','bharath@gmail.com','lravi','456','M','37','5');
+insert into users values('13','bharath','bharath@gmail.com','mbharath','456','M','37','6');
+insert into users values('14','bharath','bharath@gmail.com','nravi','456','M','37','6');
+insert into users values('15','sunny','sunny@gmail.com','oravi','456','M','13','7');
+insert into users values('16','teja','teja@gmail.com','pteja','456','M','42','7');
+insert into users values('17','sunny','sunny@gmail.com','qsunny','456','M','42','9');
+insert into users values('18','teja','teja@gmail.com','rteja','456','M','42','20');
+insert into users values('19','sunny','teja@gmail.com','ssunny','456','M','42','19');
+insert into users values('20','teja','sunny@gmail.com','tteja','456','M','42','15');
+insert into users values('21','ravi','teja@gmail.com','uravi','456','M','13','16');
+insert into users values('22','teja','teja@gmail.com','vteja','789','M','51','17');
+insert into users values('23','teja','teja@gmail.com','wteja','789','M','51','18');
+insert into users values('24','kite','kite@gmail.com','xkite','789','M','51','12');
+insert into users values('25','kite','bharath@gmail.com','ybharath','789','M','51','14');
+insert into users values('26','kite','bharath@gmail.com','zkite','789','M','13','30');
+insert into users values('27','bharath','bharath@gmail.com','bharatha','567','M','30','11');
+insert into users values('28','bharath','bharath@gmail.com','kiteb','567','M','30','9');
+insert into users values('29','kite','kite@gmail.com','kitec','567','F','30','10');
+insert into users values('30','teju','teju@gmail.com','tejad','567','F','30','1');
+insert into users values('31','kumar','kumar@gmail.com','kumare','567','M','13','2');
+insert into users values('32','teja','teja@gmail.com','tejaf','567','M','29','3');
+insert into users values('33','kumar','teja@gmail.com','kumarg','567','M','29','4');
+insert into users values('34','teja','kumar@gmail.com','tejah','567','M','29','5');
+insert into users values('35','kumar','teja@gmail.com','kumari','567','M','29','6');
+insert into users values('36','teja','teja@gmail.com','tejaj','rts','M','29','5');
+insert into users values('37','teja','teja@gmail.com','tejak','rts','M','29','1');
+insert into users values('38','kumar','kumar@gmail.com','kumarl','rts','M','13','1');
+insert into users values('39','kumar','bharath@gmail.com','bharathm','rts','M','27','15');
+insert into users values('40','kumar','bharath@gmail.com','kumarn','rts','M','45','1');
+insert into users values('41','bharath','bharath@gmail.com','bharatho','rts','M','46','1');
+insert into users values('42','bharath','bharath@gmail.com','kumarp','rts','M','46','1');
+insert into users values('43','ravi','ravi@gmail.com','raviq','rtsq','M','21','1');
+insert into users values('44','sowmya','sowmya@gmail.com','sowmyar','rts','F','21','21');
+insert into users values('45','ravi','ravi@gmail.com','ravis','rtss','M','22','14');
+insert into users values('46','sowmya','sowmya@gmail.com','sowmyat','rts','F','22','1');
+insert into users values('47','ravi','sowmya@gmail.com','raviu','rts','F','22','56');
+insert into users values('48','sowmya','ravi@gmail.com','sowmyav','rts','F','56','1');
+insert into users values('49','ravi','sowmya@gmail.com','raviw','rts','M','78','1');
+insert into users values('50','geetha','geetha@gmail.com','geethax','rts','F','78','13');
+insert into users values('51','swetha','swetha@gmail.com','swethay','123','F','78','13');
+insert into users values('52','ravi','ravi@gmail.com','raviz','123','M','66','1');
+insert into users values('53','ravi','bharath@gmail.com','bhaarath','123','M','66','1');
+insert into users values('54','ravi','bharath@gmail.com','raavi','123','M','66','11');
+insert into users values('55','bharath','bharath@gmail.com','bharathi','xyz','M','66','11');
+insert into users values('56','bharath','bharath@gmail.com','sanjaysahu','xyz','M','66','12');
+
+
+
+create table ratings(
+UserID int(11),
+MusicID varchar(50),
+Rating varchar(50),
+Timestamps varchar(50)
+);
+
+
+insert into ratings values('1','1','5','978300760');
+insert into ratings values('1','1','3','978302109');
+insert into ratings values('1','1','3','978301968');
+insert into ratings values('1','1','4','978300275');
+insert into ratings values('1','2','5','978824291');
+insert into ratings values('1','2','3','978302268');
+insert into ratings values('1','8','5','978302039');
+insert into ratings values('1','8','5','978300719');
+insert into ratings values('1','9','4','978302268');
+insert into ratings values('1','9','4','978301368');
+insert into ratings values('1','5','5','978824268');
+insert into ratings values('1','9','4','978301752');
+insert into ratings values('1','2','4','978302281');
+insert into ratings values('1','2','4','978302124');
+insert into ratings values('1','1','5','978301753');
+insert into ratings values('1','2','4','978302188');
+insert into ratings values('1','2','3','978824268');
+insert into ratings values('1','20','4','978301777');
+insert into ratings values('1','31','5','978301713');
+insert into ratings values('1','27','4','978302039');
+insert into ratings values('1','23','3','978302205');
+insert into ratings values('1','2','3','978300760');
+insert into ratings values('1','12','5','978300055');
+insert into ratings values('1','5','5','978824195');
+insert into ratings values('1','23','3','978300103');
+insert into ratings values('1','4','5','978824351');
+insert into ratings values('1','10','4','978301953');
+insert into ratings values('1','17','4','978300055');
+insert into ratings values('1','15','4','978824139');
+insert into ratings values('1','5','3','978824268');
+insert into ratings values('1','22','4','978824291');
+insert into ratings values('1','31','4','978300019');
+insert into ratings values('1','15','4','978824330');
+insert into ratings values('1','5','4','978824268');
+insert into ratings values('1','19','4','978824330');
+insert into ratings values('1','7','4','978824291');
+insert into ratings values('1','18','5','978300172');
+insert into ratings values('1','20','4','978300760');
+insert into ratings values('1','10','5','978301777');
+insert into ratings values('1','10','5','978302205');
+insert into ratings values('1','12','4','978300719');
+insert into ratings values('1','20','5','978301619');
+insert into ratings values('1','5','4','978302149');
+insert into ratings values('1','31','4','978302174');
+insert into ratings values('1','6','4','978301398');
+insert into ratings values('1','12','4','978302091');
+

@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <div class="jumbotron text-center" style="background:transparent !important"/>
+    <h2 style="color:black;"></h2>
+    <p class="lead" style="color:white;"></p>
+    {% if session.logged_in == NULL %}
+      <!--<a href="/register" class="btn btn-primary btn-lg">Register</a>-->
+      <!--<a href="/login" class="btn btn-success btn-lg">Login</a>-->
+     
+    {% endif %}
+    <div class="opac">
+    </div>
+  </div>
+  </div>
+{% endblock %}
